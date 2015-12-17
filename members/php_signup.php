@@ -17,11 +17,6 @@
     }
 
     $user_password = md5($user_password);
-
-
-
-//    $_SESSION["p_vill"]=$pre74;
-//    $_SESSION["n_vill"]=$post74;
       
     require("../MySqlConnect.php");
 
