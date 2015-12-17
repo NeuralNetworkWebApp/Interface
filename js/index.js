@@ -8,5 +8,10 @@ $( document ).ready(function() {
         $('.container').stop().removeClass('active');
         $('.toggle').css("height","140");
     });
+
+    $('.footer').on('click', function() {
+        $('.container').stop().addClass('active');
+        //$('.footer').css("height","250");
+    });
 });
 
