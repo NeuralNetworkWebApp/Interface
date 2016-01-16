@@ -93,10 +93,32 @@
                 <button><span>Sign Up Now!</span></button>
             </div>
         </form>
+
     </div>
 
 
-    
+    <div class="two">
+<!--        <div class="toggle"></div>-->
+<!--        <h1 class="title">Oups! I forgot my password.-->
+<!--            <div class="close"></div>-->
+<!--        </h1>-->
+
+<!--        Forgot My Password Form-->
+
+        <form id="forgotPassword_form">
+            <div class="input-container">
+                <input type="text" id="user_email" required="required"/>
+                <label for="Email">Email</label>
+                <div class="bar"></div>
+            </div>
+            <div class="button-container">
+                <button><span>Send me my password!</span></button>
+            </div>
+        </form>
+
+    </div>
+
+
 </div>
 
 <!--<a id="portfolio" href="http://andytran.me/" title="View my portfolio!"><i class="fa fa-link"></i></a>-->

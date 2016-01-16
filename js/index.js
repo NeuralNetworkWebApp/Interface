@@ -10,7 +10,7 @@ $( document ).ready(function() {
     });
 
     $('.footer').on('click', function() {
-        $('.container').stop().addClass('active');
+        $('.container').stop().addClass('container');
         //$('.footer').css("height","250");
     });
 });

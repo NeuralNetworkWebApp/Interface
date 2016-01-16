@@ -162,6 +162,85 @@ body {
                     transition-delay: .7s;
 }
 
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+.container.activeTwo .card:first-child {
+    background: #f2f2f2;
+    margin: 0 15px;
+}
+.container.activeTwo .card:nth-child(2) {
+    background: #fafafa;
+    margin: 0 10px;
+}
+.container.activeTwo .card.alt {
+    top: 20px;
+    right: 0;
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    padding: 60px 0 40px;
+    overflow: hidden;
+}
+.container.activeTwo .card.alt .toggle {
+    position: absolute;
+    top: 40px;
+    right: -70px;
+    box-shadow: none;
+    -webkit-transform: scale(10);
+    -ms-transform: scale(10);
+    transform: scale(10);
+    -webkit-transition: -webkit-transform .3s ease;
+    transition: transform .3s ease;
+}
+.container.activeTwo .card.alt .toggle:before {
+    content: '';
+}
+.container.activeTwo .card.alt .title,
+.container.activeTwo .card.alt .input-container,
+.container.activeTwo .card.alt .button-container {
+    left: 0;
+    opacity: 1;
+    visibility: visible;
+    -webkit-transition: .3s ease;
+    transition: .3s ease;
+}
+.container.activeTwo .card.alt .title {
+    -webkit-transition-delay: .3s;
+    transition-delay: .3s;
+}
+.container.activeTwo .card.alt .input-container {
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s;
+}
+.container.activeTwo .card.alt .input-container:nth-child(2) {
+    -webkit-transition-delay: .5s;
+    transition-delay: .5s;
+}
+.container.activeTwo .card.alt .input-container:nth-child(3) {
+    -webkit-transition-delay: .6s;
+    transition-delay: .6s;
+}
+.container.activeTwo .card.alt .button-container {
+    -webkit-transition-delay: .7s;
+    transition-delay: .7s;
+}
+
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+
 /* Card */
 .card {
     position: relative;
