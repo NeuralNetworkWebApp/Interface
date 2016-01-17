@@ -30,4 +30,15 @@ CREATE TABLE `LOGFILE` (
     testset_id VARCHAR(20) NOT NULL
 );
 
+CREATE TABLE `model` (
+  `id` bigint(20)  NOT NULL AUTO_INCREMENT Primary Key,
+  `title` varchar(50) COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+CREATE TABLE `t` (
+  `id` bigint(20) AUTO_INCREMENT PRIMARY KEY NOT NULL,
+  `title` varchar(50) COLLATE utf8_bin NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_bin;
+
+
 
